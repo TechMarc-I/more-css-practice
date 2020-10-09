@@ -1,1 +1,35 @@
 /* Add your CSS here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 500px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+img {
+    border: 1px solid gold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; 
+    padding: 25px;
+}
+
+a {
+    color: lightgray;
+    background-color: maroon;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+}

@@ -1,1 +1,57 @@
 /* Add your CSS here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 { 
+    color: #262626;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    height: 100%;
+    border: 1px solid #DCDCDC;
+}
+
+.sidebar {
+    flex-direction: column;
+    width: 200px;
+    padding-right: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: 1px solid #DCDCDC;
+}
+
+h4 {
+    color: lightgray;
+    margin: 10px;
+}
+
+.sections {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    list-style: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: rgb(99, 72, 72);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.name {
+    text-decoration: none;
+}
