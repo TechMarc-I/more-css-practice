@@ -1,1 +1,85 @@
 /* Add your CSS here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    margin: 20px;
+}
+
+.trail {
+    display: inline-block;
+    white-space: nowrap;
+    list-style: none;
+}
+
+.trail:after {
+    content: '/';
+}
+
+a:active {
+    color: red;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 90px;
+}
+
+h1 {
+    font-size: 65px;
+    padding-bottom: 30px;
+}
+
+
+.main {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.main p {
+    font-size: 30px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-item {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.footer-item p {
+    line-height: 2;
+    margin: 10px;
+}
+
+

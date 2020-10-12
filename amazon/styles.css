@@ -1,1 +1,70 @@
 /* Add your CSS here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: orange;
+    padding-bottom: 5px;
+}
+
+h2 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+
+p {
+    color: gray;
+    font-size: 13px;
+}
+
+.books-container {
+    display: flex;
+    justify-content: center;
+}
+
+.books {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin-left: 70px;
+}
+
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 10px;
+}
+
+
+.books a {
+    text-decoration: none;
+}

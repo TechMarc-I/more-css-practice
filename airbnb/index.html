@@ -1,28 +1,66 @@
 <!-- Markup this content with HTML here -->
-[Page Title: Airbnb]
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Airbnb</title>
+        <link href='styles.css' rel='stylesheet' type='text/css'/>
+    </head>
+    <body>
+        <div class='header'>
+           <h1>Book unique homes and experiences.</h1>
+        </div>
 
-Book unique homes and experiences.
+        <div class='booking-container'>
+            <div class='where-container'>
+                <h3>WHERE</h3>
+                <input type='text' id='where' placeholder='Anywhere' />
+            </div>
 
+            <div class='checkin-and-out-containter'>
+                <div class='check-in'>
+                    <h3>CHECK IN</h3>
+                    <input type='date' id='in' />
+                </div>
+                <div class='check-out'>
+                    <h3>CHECK OUT</h3>
+                    <input type='date' id='out' />
+                </div>
+            </div>
 
-Where
-[Text Input]
+            <div class='guest-container'>
+                <h3>GUESTS</h3>
+                <input type='number' id='guests' placeholder='1 guest' />
+            </div>
 
-Check In
-[Date Input]
+            <input type='submit' value='Search' id='search' />
+        </div>
 
-Check Out
-[Date Input]
+        <h2>Explore Airbnb</h2>
 
-Guests
-[Number Input]
+        <div class='footer'>
+            <a href='#'>
+                <div class='footer-item'>
+                    <img src='http://placekitten.com/100/75'/>
+                    <h4>Homes</h4>
+                 </div>
+            </a>
 
-Search
-[Submit Input]
+            <a href='#'>
+                <div class='footer-item'>
+                    <img src='http://placekitten.com/100/75'/>
+                    <h4>Experiences</h4>
+                </div>
+            </a>
 
+            <a href='#'>
+                <div class='footer-item'>
+                    <img src='http://placekitten.com/100/75'/>
+                    <h4>Restaurants</h4>
+                </div>
+            </a>
+        </div>
 
-Explore Airbnb
-Homes
-Experiences
-Restaurants
-
+    </body>
+</html>
